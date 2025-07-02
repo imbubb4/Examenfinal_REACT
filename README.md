@@ -23,3 +23,6 @@ Bajar plantillas de BS
 Instalar el router 
 Instalar Zustand
 Instalar Boostrap
+
+DEPLOY:
+ https://imbubb4.github.io/Examenfinal_REACT/
