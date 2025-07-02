@@ -10,7 +10,7 @@ import HeroSlider from './components/HeroSlider.jsx'
 
 function App() {
   return (
-   <>
+   <Router basename="/examenfinal_REACT/">
       <Header />
 
       <Routes>
@@ -26,7 +26,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </>
+    </Router>
   )
 }
 
