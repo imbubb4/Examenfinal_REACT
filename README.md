@@ -1,12 +1,25 @@
-# React + Vite
+CREACIÓN DE API JSON Placeholder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creación de una API JSON con el uso de la librería JSON Placeholder.
 
-Currently, two official plugins are available:
+La API se encuentra en el siguiente enlace: https://jsonplaceholder.typicode.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+¿Cómo se crea la API?
 
-## Expanding the ESLint configuration
+Para crear la API se utiliza la librería JSON Placeholder, que es una librería de JavaScript que proporciona una API JSON de ejemplo para desarrolladores.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para utilizar la API se debe seguir los siguientes pasos:
+
+Instalar la librería JSON Placeholder en su proyecto.
+Importar la librería JSON Placeholder en su archivo JavaScript.
+Utilizar la función fetch() para obtener los datos de la API.
+Procesar los datos obtenidos y mostrarlos en la interfaz de usuario.
+Instalación de la librería JSON Placeholder
+
+Para instalar la librería JSON Placeholder, sigue los siguientes pasos:
+Hacer Fetch con el link de la api
+Luego mapear
+Bajar plantillas de BS
+Instalar el router 
+Instalar Zustand
+Instalar Boostrap
