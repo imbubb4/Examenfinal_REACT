@@ -7,7 +7,7 @@ import { createRoot } from 'react-dom/client';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Examenfinal_REACT/">
     <App />
     </BrowserRouter>
   </StrictMode>,

@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import CardList from './components/CardList.jsx'
@@ -7,10 +6,9 @@ import Info from './pages/Info.jsx'
 import Contact from './pages/Contact.jsx'
 import HeroSlider from './components/HeroSlider.jsx'
 
-
 function App() {
   return (
-   <Router basename="/examenfinal_REACT/">
+    <>
       <Header />
 
       <Routes>
@@ -20,13 +18,13 @@ function App() {
             <HeroSlider />
             <CardList />
           </>
-        } />
+        }/>
         <Route path="/info" element={<Info />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />
-    </Router>
+    </>
   )
 }
 
